@@ -1,0 +1,53 @@
+header {
+  padding: 10px;
+  text-align: center;
+  background: #2eff74;
+  color: white;
+  font-size: 30px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2eff74;
+  color: White;
+  text-align: center;
+  font-size: 30px;
+}
+
+h1 {
+  font: courier new;
+  color: #f0433a;
+}
+
+h2{
+  background: #c9283e;
+  color: #000000;
+  font-size: 25px;
+}
+.column {
+  float: left;
+  width: 48%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 25px;
+  color: #000000;
+}
+
+p1 {
+  font-size: 20px;
+  font: calibri;
+}
+
